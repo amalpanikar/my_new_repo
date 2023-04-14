@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .first_block{
+            align-items: center;
+            justify-content:center;
+            height:300px;
+            width:40%;
+            margin:0 auto 20px auto;
+            border:3px solid rgb(103, 141, 159);
+            z-index: -1;
+            padding:20px;
+            
+        }
+        
+        .label_valid{
+            margin: 50px 0px 0px 320px;
+
+        }
+        .label_cl{
+            margin:0px 0px 0px 5px;
+        }
+        .drop_1{
+            margin:0 0 0 60px;
+            width:90px;
+        }
+        .name_cl{
+            margin: 0 0 0 45px;
+            width:200px;
+        }
+        .name_las{
+            margin: 0 0 0 85px;
+        }
+        .name_pref{
+            margin: 0 0 0 25px;
+        }
+        label{
+            margin: 0 0 0 10px;;
+        }
+        .name_pr{
+            margin:0 0 0 10px;
+        }
+        .dob_dt{
+            margin:0 0 0 50px;
+        }
+        .radio_btn{
+            margin:0 0 0 50px;
+        }
+        .radio_btn label{
+            margin:0 0 0 -5px;
+        }
+        .h4{
+            margin:-30px 0px 20px 0px;
+            z-index: 1;
+            
+        }
+        .second_block{
+            align-items: center;
+            justify-content:center;
+            height:200px;
+            width:40%;
+            margin:0 auto 20px auto;
+            border:3px solid rgb(103, 141, 159);
+            z-index: -1;
+            padding:20px;
+            
+        }
+        .phone_cl{
+            margin: 0 0 0 40px;
+            width:150px;
+        }
+        .sec_home{
+            margin:0 0 0 100px;
+        }
+        .sec_work{
+            margin:0 0 0 120px;
+        }
+        .phonemob{
+            margin:0 0 0 95px;
+            width:150px;
+        }
+        .Mob_Fax{
+            margin: 0 0 0 90px;
+        }
+        .mobbbb{
+            margin: 0 0 0 110px;
+        }
+        .eme_in{
+            margin: 0 0 0 10px;
+        }
+        .email_con{
+            margin: 0 0 0 40px;
+        }
+        .third_block{
+            
+            height:200px;
+            width:48%;
+            margin:0 auto 20px auto;
+            border-top: 3px solid rgb(103, 141, 159);
+            z-index: -1;
+            padding:20px;
+            
+        }
+        .inside_third{
+            width:90%;
+            height: 180px;
+            margin:auto;
+            border:3px solid  rgb(103, 141, 159);
+
+        }
+        .h4s{
+            margin:-10px 0 0 5px;
+        }
+        .inside_thr{
+            margin:0 0 0 40px;
+            width:350px;
+        }
+        .inside_thr2{
+            margin:0 0 0 60px;
+        }
+        .th_pos{
+            margin:0 0 0 30px;
+        }
+        .fourthblock{
+            align-items: center;
+            justify-content:center;
+            height:180px;
+            width:40%;
+            margin:0 auto 20px auto;
+            border:3px solid rgb(103, 141, 159);
+            z-index: -1;
+            padding:20px;
+        }
+        .mid_div{
+            align-items: center;
+            justify-content:center;
+            height:40px;
+            width:40%;
+            margin:0 auto 20px auto;
+            border:3px solid rgb(103, 141, 159);
+            z-index: -1;
+            padding:20px;
+
+        }
+        .last_block{
+            align-items: center;
+            justify-content:center;
+            height:200px;
+            width:40%;
+            margin:0 auto 20px auto;
+            border:3px solid rgb(103, 141, 159);
+            z-index: -1;
+            padding:20px;
+        }
+        .ihi{
+            margin:0 0 0 20px;
+        }
+        .label2{
+            margin:0 0 0 50px;
+        }
+        .num_txt{
+            margin: 0 0 0 20px;
+
+        }
+        .rec_txt{
+            margin: 0 0 0 25px;
+
+        }
+        .buttons{
+            margin:0 0 0 250px;
+        }
+        .buttons button{
+            width:120px;
+        }
+        
+
+        
+    </style>
+</head>
+<body>
+    
+    <div class="first_block">
+        <h4 class="h4">Primary details</h4>
+        <span class="label_valid">
+        <label for="validtill">Valid Till</label>
+        <br>
+    </span>
+       
+            <label for="Med_no" class="label_cl">Medicare No</label>
+            <input type="text" name="Med_no"> /
+            <input type="text" size="1" name="Med_no">
+            <input type="date" id="validtill" name="validtill" min="1900-01-01" max="2023-04-13" required>
+            <input type="text" name="block" size="1"></form><br><br>
+            <label for="dropdown" class="label_cl"> Title</label>
+            <select name="" id="" class="drop_1" >
+                <option value="None">None</option>
+                <option value="None1">None1</option>
+                <option value="None2">None2</option>
+            </select><br>
+            <span class="name_las">
+                <label for="lname">LastName, </label>
+                <label for="fname">FirstName, </label>
+                <label for="mname">Middlen </label></span><br>
+            </span>
+            <label for="name"> Name</label>
+            <input type="text"  name="name" class="name_cl"><br>
+            <br>
+            <label for="pref_Name" class="pref_Name"> Pref. Name</label>
+            <input type="text"  name="name" class="name_pr"><br>
+            <br>
+            <label for="DOB"> DOB</label>
+            <input type="date" class="dob_dt" name="validtill" min="1900-01-01" max="2015-04-13" required><br><br>
+            <label for="Sex"> Sex</label>
+            <span class="radio_btn">
+            <input type="radio" value="Male" >
+            <label for="Male"> Male</label>
+            <input type="radio" value="Female" >
+            <label for="Female"> Female</label><br><br>
+            </span>
+            <label for="familyName">FamilyName</label>
+            <input type="text" name="" id="">
+            <input type="text" name="" id="" size="1" >
+            <input type="text" name="" id="" size="1">
+        
+    </div>
+    <div class="second_block">
+        <h4 class="h4">Contact details</h4>
+        <span>
+            <label for="Home" class="sec_home"> Home</label>
+            <label for="Home" class="sec_work"> Work</label><br>
+        </span>
+        <label for="phone">Phone</label>
+        <input type="text" name="phonehm" class="phone_cl">
+        <input type="text" name="phonewrk" class="phone_wl"><br>
+        <span class="Mob_Fax">
+            <label for="phonemob" class="">Mobile</label>
+            <label for="fqax" class="mobbbb">FAX</label><br>
+        </span>
+        <input type="text" name="phonemob" class="phonemob">
+        <input type="text" name="fqax" class="">
+        <br><br>
+        <label for="emerge_con">Emerg. No</label>
+        <input type="text" name="" class="eme_in">
+        <br><br>
+        <label for="email_con">Email</label>
+        <input type="text" name="" class="email_con">
+
+    
+   </div>
+    <div class="third_block">
+        <h4 class="h4">Address details</h4>
+       
+        <div class="inside_third">
+            <h4 class="h4s">Residential Address</h4>
+            <form action="">
+                <br>
+                <label for="add1">Address 1</label>
+                <input type="text"Name="add1" class="inside_thr"><br><br>
+                <label for="add1">Address 2</label>
+                <input type="text"Name="add1"class="inside_thr"><br><br>
+                <label for="add1">Suburb</label><input type="text"Name="add1"class="inside_thr2">
+                <label for="thr_drop"> State </label>
+                <select name="" id="" class="drop_2" >
+                    <option value="None">VIC</option>
+                    <option value="None1">None1</option>
+                    <option value="None2">None2</option>
+                </select><br><br>
+                <label for="postal" >PostalCode</label>
+                <input type="text" name="postal" class="th_pos">
+                <label for="country">Country</label>
+                <select name="" id="" class="drop_2" >
+                    <option value="None">India</option>
+                    <option value="None1">None1</option>
+                    <option value="None2">None2</option>
+                </select><br><br>
+
+            
+
+        </div>
+    </div>
+    <div class="mid_div">
+        <h4 class="h4">Mailing Address</h4>
+        <label for="">Are Mailing Adress and Residential Address same</label>
+        <input type="checkbox" value="yes" name="yescheck">
+        <label for="yescheck">YEs</label>
+    </div>
+    <div class="fourthblock">
+        <h4 class="h4">Mailing Address</h4>
+        
+            <br>
+            <label for="add1">Address 1</label>
+            <input type="text"Name="add1" class="inside_thr"><br><br>
+            <label for="add1">Address 2</label>
+            <input type="text"Name="add1"class="inside_thr"><br><br>
+            <label for="add1">Suburb</label><input type="text"Name="add1"class="inside_thr2">
+            <label for="thr_drop"> State </label>
+            <select name="" id="" class="drop_2" >
+                <option value="None">VIC</option>
+                <option value="None1">None1</option>
+                <option value="None2">None2</option>
+            </select><br><br>
+            <label for="postal" >PostalCode</label>
+            <input type="text" name="postal" class="th_pos">
+            <label for="country">Country</label>
+            <select name="" id="" class="drop_2" >
+                <option value="None">India</option>
+                <option value="None1">None1</option>
+                <option value="None2">None2</option>
+            </select><br><br>
+
+        
+
+    </div>
+    <div class="last_block">
+        <hr>
+        <label for="ihi">IHI Number</label>
+        <label for="" class="label2">80036</label>
+        <input type="text" name="ihi" class="ihi">
+        <br><br>
+        <label for=""> Number Status </label>
+        <input type="text" class="num_txt">
+        <br><br>
+        <label for="rec">Record Status</label>
+        <input type="text" name="rec" class="rec_txt">
+        <br><br>
+        <label for="lastup">Last Updated</label>
+        <input type="text" name="lastup" class="rec_txt">
+        <br>
+        <br>
+        <span class="buttons">
+            <button>Submit</button>
+            <button>Clear</button>
+        </span>
+    </div>
+    
+</body>
+</html>

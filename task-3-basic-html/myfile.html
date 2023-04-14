@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amal's Resume</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <style>
+      body {
+       
+        border:5px solid rgb(184, 193, 103);
+      }
+      .basic_details{
+        width: 100%;
+        display: flex;
+        
+        
+
+      }
+      .firstblock,.secondblock{
+        
+        
+        width: 40%;
+        vertical-align: top;
+      }
+      .firstblock{
+        background-color: rgb(184, 184, 167);
+        
+      }
+      .firstblock,.secondblock{
+        height:300px;
+        margin: 100px 100px 0px 100px;
+      }
+      .firstblock h2,h3,i{
+
+        margin:10px 0px 10px 10px;
+      }
+      .secondblock{
+        border: 5px solid rgb(62, 81, 62);
+        display: flex;
+        align-items: center;
+        display: inline-flex;
+        
+      }
+      .secondblock img{
+        height: 250px;
+        width:60%;
+        margin:  auto ;
+      }
+      .icon-text {
+        display: flex;
+        align-items: center;
+        
+      }
+      .info_div {
+        width:80%;
+        background-color: rgb(184, 184, 167);
+        margin: 30px auto;
+
+      }
+      .info_div  td{
+        padding-top:50px;
+      }
+      .inside{
+        padding-left: 100px;;
+      }
+      .inside h5{
+        margin-top: 0px;
+      }
+      .initial{
+        padding-left: 20px;
+      }
+      .latest_div{
+        margin:50px;
+      }
+      .latest_div table {
+        
+       width:90%;
+       margin:20px 50px;
+        text-align: center;
+        
+        border:1px solid black;
+      }
+      .latest_div table tr td,th{
+        border: 1px solid black;
+      }
+      @media screen and (max-width: 768px) {
+  
+  .basic_details {
+    flex-direction: column;
+    margin: 20px;
+  }
+  .firstblock, .secondblock {
+    width: 100%;
+    margin: 0;
+    height: auto;
+  }
+  .firstblock {
+    margin-bottom: 20px;
+  }
+  .secondblock img {
+    height: auto;
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  
+  .basic_details {
+    flex-direction: row;
+    margin: 20px;
+  }
+  .firstblock, .secondblock {
+    width: 50%;
+    margin: 0 20px;
+    height: 400px;
+  }
+  .firstblock h2, .firstblock h3, .firstblock i {
+    margin: 10px;
+  }
+  .secondblock img {
+    height: 350px;
+    width: 100%;
+    margin: 25px 0;
+  }
+}
+
+@media screen and (min-width: 1025px) {
+  
+  .basic_details {
+    flex-direction: row;
+    margin: 50px;
+  }
+  .firstblock, .secondblock {
+    width: 40%;
+    margin: 0 50px 0 0;
+    height: 400px;
+  }
+  .secondblock img {
+    height: 350px;
+    width: 100%;
+    margin: 25px 0;
+  }
+}
+
+     
+
+      
+   
+
+
+    </style>
+</head>
+<body>
+    <div class="basic_details" height="150px" width="200px" >
+        <div class="firstblock">
+            <h2>Amal Panikar</h2>
+            <h3>Full-Stack Developer</h3>
+            <span class="icon-text">
+            <i class="fas fa-home"></i> &nbsp;&nbsp;&nbsp;A.A nivas tal-shirur,Dist-pune,pin-412208
+           </span>
+           <span class="icon-text">
+            <i class="fas fa-phone"></i>&nbsp;&nbsp;&nbsp;Phone: 787551939
+            </span>
+            <span class="icon-text">
+                <i class="fas fa-envelope"></i> &nbsp;&nbsp;&nbsp;AmalPanikar7@gmail.com
+            </span>
+            <span class="icon-text">
+                <i class="fas fa-globe fa-lg"></i>&nbsp;&nbsp;&nbsp;www.website-xyz.com
+              </span>
+              <span class="icon-text">
+                <i class="fab fa-twitter"></i>&nbsp;&nbsp;&nbsp; @twitter-screen-name
+              </span>
+            
+
+        </div>
+        <div class="secondblock">
+            <img src="./Amal.jpg" alt="">
+        </div>
+
+    </div>
+    <div class="info_div">
+        <table>
+            <tr>
+                <td class="initial"><b>profile:</b> </td>
+                <span>
+                    <td class="inside">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi. Proin porttitor, orci nec nonummy molestie, enim est eleifend mi, non fermentum diam nisl sit amet erat. Duis semper. Duis arcu massa, scelerisque vitae, consequat in, pretium a, enim. Pellentesque congue. </td>
+                </span>
+                
+            </tr>
+            <tr>
+                <td class="initial"><b>Skills:</b></td>
+                <span>
+                    <td class="inside"><ul>
+                        <li>java</li>
+                        <li>Html</li>
+                        <li>XHtml</li>
+                        <li>Jscript</li>
+                        <li>Php</li>
+                        <li>Wordpress</li>
+
+                    </ul></td>
+                  
+                </span>
+            </tr>
+            <tr>
+                <td class="initial"><b>Experience:</b>
+                    <td class="inside">
+                        <h3>Web Developer/Developer </h3>
+                        <h5> &nbsp; &nbsp; &nbsp;- Company xyz</h5>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi. Proin porttitor, orci nec nonummy molestie, enim est eleifend mi, non fermentum diam nisl sit amet erat. Duis semper. Duis arcu massa, scelerisque vitae, consequat in, pretium a, enim. Pellentesque congue. </p>
+                
+                    </td>
+
+                </td>
+            </tr>
+          </table>
+        
+    </div>
+
+    <div class="latest_div">
+        <span>
+            <h3 class="educ_det">Education
+
+            </h3>
+            <table class="edu_tab">
+                
+                <tr>
+                  <th >Institute</th>
+                  <th>Subjects</th>
+                  <th>Year</th>
+                </tr>
+                <tr>
+                  <td>ABC University</td>
+                  <td>Computer Science</td>
+                  <td>2020</td>
+                </tr>
+                <tr>
+                  <td>XYZ College</td>
+                  <td>History</td>
+                  <td>2019</td>
+                </tr>
+                <tr>
+                  <td>PQR Institute</td>
+                  <td>Mathematics</td>
+                  <td>2021</td>
+                </tr>
+              </table>
+              
+        </span>
+    </div>
+</body>
+</html>
