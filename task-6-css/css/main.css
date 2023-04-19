@@ -1,0 +1,91 @@
+.section{
+    display: flex;
+    width:80%;
+    height:900px;
+    margin: auto;
+    border:5px solid black;
+}
+.section_block1{
+    width:70%;
+    background-color: whitesmoke;
+
+}
+.section_block2{
+    width:30%;
+    background-color: blue;
+}
+.profile_div{
+    margin:0 0 0 10%;
+}
+.icons {
+    display: flex;
+    align-items: center;
+  }
+  .icons_img {
+    font-size: 40px;
+    margin:0 0 0 -10px;
+    
+  }
+  h2 {
+    font-size: 20px;
+    margin: 0;
+  }
+  .margin0{
+    margin-bottom: 0px;
+  }
+  .margin1{
+    margin-top: 0px;
+    
+  }
+
+  .section_block1 {
+    margin-top: 40px;
+  }
+  #input1{
+    width:300px;
+  }
+  .section_block2{
+    display:flex;
+    flex-direction: column;
+  }
+.oval{
+  margin: auto;
+
+}
+.oval img {
+  height: 200px;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto;
+}
+.profilephoto{
+  background-color: rgb(87, 43, 229);
+  margin: 0 auto 0 auto;
+  height: 300px;
+  width:100%;
+}
+.name_pro{
+  padding-left: 10px;;
+  margin-bottom: 0px;
+}
+.name_ele{
+  display: inline-block;
+
+  margin-left: 107px;
+}
+.below_pro{
+  margin-top: 0px;
+
+}
+.pro_block2{
+  width:100%;
+  height:350px;
+  
+}
+.inside_block2{
+  margin-left: 30px;
+
+}
+.profile_div_block2{
+  margin:10% 0 0 10%;
+}
